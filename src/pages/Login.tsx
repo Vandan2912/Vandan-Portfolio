@@ -52,7 +52,7 @@ export default function Login(props: MacActions) {
             onChange={handleInputChange}
           />
           <div className="col-start-5 col-span-1 flex-center">
-            <span className="i-bi:question-square-fill text-white ml-1" />
+            <span className="i-bi:arrow-right text-white ml-1" />
           </div>
         </div>
 
