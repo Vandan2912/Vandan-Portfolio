@@ -7,7 +7,7 @@ export default function Login(props: MacActions) {
   const [sign, setSign] = useState("Click to enter");
   const dark = useStore((state) => state.dark);
 
-  const keyPress = (e: React.KeyboardEvent) => {
+  const keyPress = (e: React.KeyboardEvent<HTMLInputElement>) => {
     const keyCode = e.key;
     if (keyCode === "Enter") loginHandle();
   };
@@ -34,7 +34,6 @@ export default function Login(props: MacActions) {
           dark ? wallpapers.night : wallpapers.day
         }) center/cover no-repeat`
       }}
-      onClick={() => loginHandle()}
     >
       <div className="inline-block w-auto relative top-1/2 -mt-40">
         {/* Avatar */}
@@ -57,7 +56,7 @@ export default function Login(props: MacActions) {
           </div>
         </div>
 
-        <div mt-2 cursor-pointer text="sm gray-200">
+        <div mt-2 cursor-pointer text="sm gray-200" onClick={() => loginHandle()}>
           {sign}
         </div>
       </div>

@@ -187,7 +187,7 @@ const Content = ({ contentID, contentURL }: ContentProps) => {
   );
 };
 
-const Bear = () => {
+const Finder = () => {
   const [state, setState] = useState<BearState>({
     curSidebar: 0,
     curMidbar: 0,
@@ -234,4 +234,4 @@ const Bear = () => {
   );
 };
 
-export default Bear;
+export default Finder;

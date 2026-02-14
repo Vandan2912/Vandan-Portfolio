@@ -1,5 +1,6 @@
 import { appBarHeight } from "~/utils";
 import type { AppsData } from "~/types";
+import Finder from "~/components/apps/Finder";
 
 const apps: AppsData[] = [
   {
@@ -9,15 +10,15 @@ const apps: AppsData[] = [
     img: "img/icons/launchpad.png"
   },
   {
-    id: "bear",
-    title: "Bear",
+    id: "finder",
+    title: "Finder",
     desktop: true,
     width: 860,
     height: 500,
     show: true,
     y: -40,
-    img: "img/icons/bear.png",
-    content: <Bear />
+    img: "img/icons/finder.svg",
+    content: <Finder />
   },
   {
     id: "typora",
@@ -77,7 +78,7 @@ const apps: AppsData[] = [
     title: "Github",
     desktop: false,
     img: "img/icons/github.png",
-    link: "https://github.com/Renovamen/playground-macos"
+    link: "https://github.com/Vandan2912/Vandan-Portfolio"
   }
 ];
 
