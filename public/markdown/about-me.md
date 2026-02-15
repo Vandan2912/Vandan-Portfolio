@@ -27,4 +27,4 @@ Contact me by:
 
 ## Resume
 
-- Download Here
+- [Download Here](https://drive.google.com/file/d/1hV4LW3BKRAeaA-V7ZRDWfddSnArd1mJe/view?usp=sharing)
